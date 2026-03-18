@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5671","Failed login with invalid credentials -- @1.1 ","","2026-03-18","broken","2026-03-18","","","",""
+"","6039","Failed login with invalid credentials -- @1.2 ","","2026-03-18","broken","2026-03-18","","","",""
+"","6998","Add a single item to the cart","","2026-03-18","passed","2026-03-18","","","",""
+"","7023","Successful checkout with valid information","","2026-03-18","passed","2026-03-18","","","",""
+"","37961","Remove an item from the cart","","2026-03-18","passed","2026-03-18","","","",""
+"","6497","Successful login with valid credentials","","2026-03-18","broken","2026-03-18","","","",""
+"","6260","Open login page","","2026-03-18","broken","2026-03-18","","","",""
