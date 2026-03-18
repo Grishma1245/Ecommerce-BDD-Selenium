@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 E-Commerce BDD Test Suite - SauceDemo
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -6,6 +7,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 A robust and professional automated testing suite for the [SauceDemo](https://www.saucedemo.com) e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability.
+=======
+A robust and professional automated testing suite for the [SauceDemo]https://www.saucedemo.com e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability.
+>>>>>>> f473ce653b0a1f9c292c70f11cb9dfd687ad81f0
 
 ---
 
@@ -48,7 +52,11 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/Grishma1245/selenium-testing.git
+=======
+   git clone https://github.com/Grishma1245/Ecommerce-BDD-Selenium
+>>>>>>> f473ce653b0a1f9c292c70f11cb9dfd687ad81f0
    cd ecommerce-bdd-selenium
    ```
 
@@ -134,4 +142,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
+<<<<<<< HEAD
 **Developed with ❤️ by [Grishma](https://github.com/Grishma1245)**
+=======
+>>>>>>> f473ce653b0a1f9c292c70f11cb9dfd687ad81f0
