@@ -141,8 +141,3 @@ Contributions are welcome! Pull requests are the best way to suggest changes.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-<<<<<<< HEAD
-**Developed with ❤️ by [Grishma](https://github.com/Grishma1245)**
-=======
->>>>>>> f473ce653b0a1f9c292c70f11cb9dfd687ad81f0

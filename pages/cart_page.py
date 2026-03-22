@@ -30,7 +30,7 @@ class CartPage(BasePage):
         item_names = []
         for item in items:
             name_element = item.find_element(By.CLASS_NAME, "inventory_item_name")
-            name = name_element.text.strip()
+            name = name_element.get_attribute("textContent").strip()
             item_names.append(name)
             if name.lower() == item_name.strip().lower():
                 return True
@@ -49,17 +49,9 @@ class CartPage(BasePage):
 
     def remove_item(self, item_name):
         """Removes an item from the cart page"""
-        items = self.get_cart_items()
-        for item in items:
-            name_element = item.find_element(By.CLASS_NAME, "inventory_item_name")
-            if name_element.text.strip().lower() == item_name.strip().lower():
-                # Wait until Remove button is clickable
-                remove_button = WebDriverWait(item, 5).until(
-                    EC.element_to_be_clickable((By.TAG_NAME, "button"))
-                )
-                remove_button.click()
-                return
-        raise Exception(f"Item '{item_name}' not found in cart to remove")
+        formatted_name = item_name.lower().replace(" ", "-")
+        locator = (By.ID, f"remove-{formatted_name}")
+        self.click(locator)
 
     def get_cart_count(self):
         """Returns the number of items in the cart badge"""

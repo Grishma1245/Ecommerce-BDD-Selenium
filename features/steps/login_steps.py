@@ -10,12 +10,7 @@ from pages.inventory_page import InventoryPage
 
 @given('I open the login page')
 def step_open_login(context):
-    # Setup driver
-    service = Service(ChromeDriverManager().install())
-    context.driver = webdriver.Chrome(service=service)
-    context.driver.maximize_window()
-    
-    # Open URL
+    # Open URL using the global driver
     context.driver.get("https://www.saucedemo.com/")
     
     # Initialize LoginPage object
@@ -61,6 +56,7 @@ def step_impl(context):
     context.login_page = LoginPage(context.driver)
     context.login_page.open()
     context.login_page.login("standard_user", "secret_sauce")
+    
     context.inventory_page = InventoryPage(context.driver)
     assert context.inventory_page.is_on_page(), "Login was not successful"
 

@@ -24,16 +24,8 @@ class InventoryPage(BasePage):
         return (By.ID, f"remove-{formatted_name}")
 
     def add_product_to_cart(self, product_name):
-        items = self.find_elements(self.INVENTORY_ITEMS)
-        for item in items:
-            name_element = item.find_element(By.CLASS_NAME, "inventory_item_name")
-            if name_element.text.strip() == product_name.strip():
-                buttons = item.find_elements(By.TAG_NAME, "button")
-                for btn in buttons:
-                    if "add to cart" in btn.text.lower():
-                        btn.click()
-                        return
-        raise Exception(f"Product '{product_name}' not found")
+        locator = self.get_product_add_button_locator(product_name)
+        self.click(locator)
 
     def remove_product_from_cart(self, product_name):
         self.click(self.get_product_remove_button_locator(product_name))
