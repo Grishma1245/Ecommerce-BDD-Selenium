@@ -8,7 +8,7 @@
 
 A robust and professional automated testing suite for the [SauceDemo](https://www.saucedemo.com) e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability.
 
-A robust and professional automated testing suite for the [SauceDemo]https://www.saucedemo.com e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability f473ce653b0a1f9c292c70f11cb9dfd687ad81f0
+A robust and professional automated testing suite for the [SauceDemo]https://www.saucedemo.com e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability 
 
 ---
 
