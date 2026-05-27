@@ -59,15 +59,15 @@ A robust and professional automated testing suite for the [SauceDemo]https://www
 
 
 ecommerce-bdd-selenium/
-├── features/               # BDD Feature files (.feature)
-│   ├── steps/              # Python step definitions
-│   └── environment.py      # Hooks (Before/After scenarios)
-├── pages/                  # Page Object Model (POM) classes
-├── utils/                  # Utility functions and configurations
-├── allure-results/         # Raw test results for Allure
-├── .github/                # CI/CD workflows
-├── requirements.txt        # Project dependencies
-└── README.md               # Project documentatio
+├── features/               
+│   ├── steps/              
+│   └── environment.py      
+├── pages/                  
+├── utils/                  
+├── allure-results/         
+├── .github/                
+├── requirements.txt        
+└── README.md               
 
 
 
