@@ -6,11 +6,8 @@
 [![Behave](https://img.shields.io/badge/Behave-BDD-E34F26?style=flat-square&logo=cucumber&logoColor=white)](https://behave.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A robust and professional automated testing suite for the [SauceDemo](https://www.saucedemo.com) e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability.
+A robust and professional automated testing suite for the [SauceDemo]e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability.
 
-A robust and professional automated testing suite for the [SauceDemo]https://www.saucedemo.com e-commerce application. This project utilizes the **Behavior-Driven Development (BDD)** approach with the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and readability 
-
----
 
 ## 🚀 Key Features
 
@@ -40,13 +37,9 @@ A robust and professional automated testing suite for the [SauceDemo]https://www
 ## ⚙️ Installation
 
    1. **Set up Virtual Environment 
-   ```bash
    python -m venv myenv
-   # Windows
    myenv\Scripts\activate
-   # macOS/Linux
-   source myenv/bin/activate
-   ```
+ 
 
 2. **Install Dependencies**
    ```bash
