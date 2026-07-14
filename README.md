@@ -44,9 +44,8 @@ A robust and professional automated testing suite for the [SauceDemo]e-commerce 
  
 
 3. **Install Dependencies**
-   ```bash
    pip install -r requirements.txt
-   ```
+  
 
 
 
