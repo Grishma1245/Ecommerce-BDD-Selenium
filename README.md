@@ -21,7 +21,7 @@ A robust and professional automated testing suite for the [SauceDemo]e-commerce 
 - **Reporting**: Integration with **Allure Reports** for visually stunning and detailed test results.
 - **Global Configuration**: Easily manageable configurations via utility scripts.
 
----
+
 
 ## 🛠️ Technology Stack
 
@@ -30,7 +30,10 @@ A robust and professional automated testing suite for the [SauceDemo]e-commerce 
 | **Python** | Core Programming Language |
 | **Selenium WebDriver** | Web Browser Automation |
 | **Behave** | BDD Framework (Gherkin syntax) |
-| **WebDriver Manager** | Automatic browser driver handling |
+| **WebDriver Manager** | Automatic browser driver handling |<img width="847" height="402" alt="3" src="https://github.com/user-attachments/assets/12e872d4-d720-4449-8dae-f1db645168d9" />
+<img width="1637" height="906" alt="2" src="https://github.com/user-attachments/assets/2c362213-e64f-4c41-b9cc-9a987d366121" />
+<img width="1052" height="767" alt="1" src="https://github.com/user-attachments/assets/08f398bd-2a6d-4080-8737-6ceab660bbb1" />
+
 | **Allure Behave** | Test reporting and visualization |
 
 
